@@ -4,10 +4,10 @@
   "description": "sococo Assi\u001b[D\u001b[C\u001b[D\u001b[D\u001b[a\u001b[C\u001b[C\u001b[Cgnment",
   "main": "index.js",
   "scripts": {
-    "build":"tsc",
-    "dev":"ts-node ./lib/server.ts",
+    "build": "tsc",
+    "dev": "ts-node ./lib/server.ts",
     "start": "nodemon ./dist/server.js",
-    "prod":"npm run build && npm run start"
+    "prod": "npm run build && npm run start"
   },
   "author": "etukuri bharath",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongoose": "^5.3.0",
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
   }
 }
